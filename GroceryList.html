@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--head-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link to CSS styles-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css"> <!---External link to style.css file-->
+    <!--logo of the web page-->
+    <link rel="icon" type="image/x-icon" href="Title_Logo.jpg">
+    <!--title-->
+    <title>Grocery Book</title>
+    <!--internal style in the head-->
+    <style>
+        * {
+            box-sizing: border-box;
+
+        }
+
+        h3 {
+            margin-top: 2%;
+            font-size: 155%;
+        }
+
+        hr {
+            margin-top: -10%;
+            border: 1px solid rgb(255, 105, 0);
+        }
+    </style>
+    <!--Internal style end in head-->
+</head>
+<!--End of the head-->
+<!--- Body section -->
+
+<body>
+    <!-- Top navigation -->
+    <div class="topnav">
+        <!-- Left-aligned logo in menubar-->
+        <div class="topnav-left">
+            <a href="GroceryList.html"><img src="Logo.jpg"></a>
+        </div>
+        <!-- Centered menubar -->
+        <div class="topnav-centered">
+            <a href="#Dairy">Dairy</a>
+            <a href="#Produce">Produce</a>
+            <a href="#Meat">Meat</a>
+            <a href="#Beverages">Beverages</a>
+            <a href="#Condiments">Condiments</a>
+        </div>
+        <!-- Right-aligned menubar -->
+        <div class="topnav-right">
+            <a href="#"><i class="fa fa-search"></i></a>
+            <a href="#"><i class="fa fa-user"></i></a>
+        </div>
+    </div>
+    <!--home image-->
+    <img src="Below_logo.jpg" alt="vegies" style="height: 500px; width: 1536px; margin-top: 1px;">
+    <!--image with inline style-->
+    <!---text inside the home image-->
+    <div class="home-text">
+        <!--created h1 tag for type-I heading including inline style with different font color-->
+        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size:150%; margin-top: 10%">Enrich
+            your<span style="color:rgb(255, 105, 0)"> shopping </span>list wisely.</h1>
+
+        <!--inline style in paragraph with different color-->
+        <p
+            style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size:80%; color:rgb(92, 90, 90); margin-top: 1%;">
+            When you choose recipes for the week, all of the ingredients you will need are combined into a convinent
+            grocery list</p>
+    </div>
+    <!--created shape class for dairy category -->
+
+    <div class="shape">
+        <!--created shape text class for text inside shape-->
+        <div class="shape-text">
+            <!--created h2 tag for type-II heading -->
+            <h2 id="Dairy"> Dairy </h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <!---section for dairy-->
+                <section>
+                    <h3>Mlik</h3> <!--created h3 tag for type-III heading-->
+                    <hr> <!--for horizontal  line-->
+                    <br>
+                    <!--created checklist for sections-->
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox-size">Whole Milk<br>
+                        <input type="checkbox" class="checkbox-size">Skim Milk<br>
+                        <input type="checkbox" class="checkbox-size">Chocolate Milk<br>
+                        <input type="checkbox" class="checkbox-size">Soy Milk<br>
+                        <input type="checkbox" class="checkbox-size">Almond Milk<br>
+                        <input type="checkbox" class="checkbox-size">Coconut Milk<br>
+                        <!--created  unordered list (type1)-->
+                        <ul>
+                            <li>______________</li>
+                            <li>______________</li>
+                            <li>______________</li>
+                        </ul>
+                        <!--End of unordered list-->
+                    </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h3>Cheese</h3>
+                <hr>
+                <br>
+                <div class="checkbox">
+                    <input type="checkbox" class="checkbox-size">Parmesan<br>
+                    <input type="checkbox" class="checkbox-size">Cheddar<br>
+                    <input type="checkbox" class="checkbox-size">Mozzarella<br>
+                    <input type="checkbox" class="checkbox-size">Blue Cheese<br>
+                    <input type="checkbox" class="checkbox-size">Cottage cheese<br>
+                    <input type="checkbox" class="checkbox-size">Feta <br>
+                    <ul>
+                        <li>______________</li>
+                        <li>______________</li>
+                        <li>______________</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h3>Yogurt</h3>
+                <hr>
+                <br>
+                <div class="checkbox">
+                    <input type="checkbox" class="checkbox-size">Greek Yogurt<br>
+                    <input type="checkbox" class="checkbox-size">Whole Yogurt<br>
+                    <input type="checkbox" class="checkbox-size">Low-Fat Yogurt<br>
+                    <input type="checkbox" class="checkbox-size">Vanila Yogurt<br>
+                    <input type="checkbox" class="checkbox-size">Peach Yogurt<br>
+                    <ul>
+                        <li>______________</li>
+                        <li>______________</li>
+                        <li>______________</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <!-- Photo for dairy section-->
+            <img src="https://www.dairyfoods.com/ext/resources/2022/10/27/Dairy-Products.jpeg?1666879344" alt="Dairy">
+        </div>
+    </div>
+    </section> <!--End of Dairy section-->
+
+    <div class="shape">
+        <div class="shape-text">
+            <h2 id="Produce"> Produce </h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <!---section for produce-->
+                <section>
+                    <h3>Vegetable</h3>
+                    <hr>
+                    <br>
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox-size">potatoes<br>
+                        <input type="checkbox" class="checkbox-size">Broccoli<br>
+                        <input type="checkbox" class="checkbox-size">Carrots<br>
+                        <input type="checkbox" class="checkbox-size">Cucumbers<br>
+                        <input type="checkbox" class="checkbox-size">Mashrooms<br>
+                        <input type="checkbox" class="checkbox-size">Peppers<br>
+                        <!--created ordered list (type2)-->
+                        <ol>
+                            <li>______________</li>
+                            <li>______________</li>
+                            <li>______________</li>
+                        </ol>
+                        <!--End of unordered list-->
+                    </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <h3>Fruit</h3>
+                <hr>
+                <br>
+                <div class="checkbox">
+                    <input type="checkbox" class="checkbox-size">Apples<br>
+                    <input type="checkbox" class="checkbox-size">Avocados<br>
+                    <input type="checkbox" class="checkbox-size">Oranges<br>
+                    <input type="checkbox" class="checkbox-size">Bananas<br>
+                    <input type="checkbox" class="checkbox-size">Melon<br>
+                    <input type="checkbox" class="checkbox-size">Pineapple<br>
+                    <input type="checkbox" class="checkbox-size">Grapes<br>
+                    <ol>
+                        <li>______________</li>
+                        <li>______________</li>
+                        <li>______________</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h3>Herb</h3>
+                <hr>
+                <br>
+                <div class="checkbox">
+                    <input type="checkbox" class="checkbox-size">Basil<br>
+                    <input type="checkbox" class="checkbox-size">Chives<br>
+                    <input type="checkbox" class="checkbox-size">Cilantro<br>
+                    <input type="checkbox" class="checkbox-size">Dill<br>
+                    <input type="checkbox" class="checkbox-size">Parsley<br>
+                    <input type="checkbox" class="checkbox-size">Rosemary<br>
+                    <ol>
+                        <li>______________</li>
+                        <li>______________</li>
+                        <li>______________</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src="https://media.gq.com/photos/5e1e06e7cac87d0009e539e3/master/pass/EATVEGGIES.jpg" alt="Produces">
+            <!-- Photo for Produces section-->
+        </div>
+    </div>
+    </section> <!--End of Produces section-->
+
+    <div class="shape">
+        <div class="shape-text">
+            <h2 id="Meat"> Meat </h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <!---section for Meat-->
+                <section>
+                    <h3>Red Meat</h3>
+                    <hr>
+                    <br>
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox-size">Beef<br>
+                        <input type="checkbox" class="checkbox-size">Lamb<br>
+                        <input type="checkbox" class="checkbox-size">Pork<br>
+                        <input type="checkbox" class="checkbox-size">Goat<br>
+                        <input type="checkbox" class="checkbox-size">Venison<br>
+                        <ul>
+                            <li>______________</li>
+                            <li>______________</li>
+                            <li>______________</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <h3>Sea food</h3>
+                <hr>
+                <br>
+                <div class="checkbox">
+                    <input type="checkbox" class="checkbox-size">Lobster<br>
+                    <input type="checkbox" class="checkbox-size">Shrimp<br>
+                    <input type="checkbox" class="checkbox-size">Scallop<br>
+                    <input type="checkbox" class="checkbox-size">Oyster<br>
+                    <input type="checkbox" class="checkbox-size">Mussel<br>
+                    <input type="checkbox" class="checkbox-size">Tuna<br>
+                    <input type="checkbox" class="checkbox-size">Salmon<br>
+                    <ul>
+                        <li>______________</li>
+                        <li>______________</li>
+                        <li>______________</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h3>White Meat</h3>
+                <hr>
+                <br>
+                <div class="checkbox">
+                    <input type="checkbox" class="checkbox-size">Chicken<br>
+                    <input type="checkbox" class="checkbox-size">Duck<br>
+                    <input type="checkbox" class="checkbox-size">Turkey<br>
+                    <ul>
+                        <li>______________</li>
+                        <li>______________</li>
+                        <li>______________</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src="https://media.istockphoto.com/id/1212824120/photo/assortment-of-meat-and-seafood.jpg?s=612x612&w=0&k=20&c=U_wNgPDs2CeWuOPEj0Hts1btABGM3gL4ftjficNvJZM="
+                alt="Meat"> <!-- Photo for Meat section-->
+        </div>
+    </div>
+    </section> <!--End of Meat section-->
+
+    <div class="shape">
+        <div class="shape-text">
+            <h2 id="Beverages"> Beverages </h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <!---section for Beverages-->
+                <section>
+                    <h3>Sparkling</h3>
+                    <hr>
+                    <br>
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox-size">Sparkling water<br>
+                        <input type="checkbox" class="checkbox-size">Seltzer<br>
+                        <input type="checkbox" class="checkbox-size">Coca-Cola<br>
+                        <input type="checkbox" class="checkbox-size">Pepsi<br>
+                        <input type="checkbox" class="checkbox-size">Sprite<br>
+                        <input type="checkbox" class="checkbox-size">Red Bull<br>
+                        <ol>
+                            <li>______________</li>
+                            <li>______________</li>
+                            <li>______________</li>
+                        </ol>
+                    </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <h3>Non-Sparkling</h3>
+                <hr>
+                <br>
+                <div class="checkbox">
+                    <input type="checkbox" class="checkbox-size">Water<br>
+                    <input type="checkbox" class="checkbox-size">Juice<br>
+                    <input type="checkbox" class="checkbox-size">Ice Tea<br>
+                    <input type="checkbox" class="checkbox-size">Smootie<br>
+                    <input type="checkbox" class="checkbox-size">Coconut Water<br>
+                    <ol>
+                        <li>______________</li>
+                        <li>______________</li>
+                        <li>______________</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h3>Alcoholic</h3>
+                <hr>
+                <br>
+                <div class="checkbox">
+                    <input type="checkbox" class="checkbox-size">Beer<br>
+                    <input type="checkbox" class="checkbox-size">Wine<br>
+                    <input type="checkbox" class="checkbox-size">Vodka<br>
+                    <input type="checkbox" class="checkbox-size">Tequila<br>
+                    <input type="checkbox" class="checkbox-size">Rum<br>
+                    <ol>
+                        <li>______________</li>
+                        <li>______________</li>
+                        <li>______________</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src="https://www.austriajuice.com/hubfs/Beverage_compounds_drinks.jpg" alt="Beverages">
+            <!-- Photo for Beverages section-->
+        </div>
+    </div>
+    </section> <!--End of Beverages section-->
+
+    <div class="shape">
+        <div class="shape-text">
+            <h2 id="Condiments"> Condiments </h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <!---section for Condiments-->
+                <section>
+                    <h3>Sauce</h3>
+                    <hr>
+                    <br>
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox-size">Ketchup<br>
+                        <input type="checkbox" class="checkbox-size">Mayonnaise<br>
+                        <input type="checkbox" class="checkbox-size">Mustard<br>
+                        <input type="checkbox" class="checkbox-size">BBQ<br>
+                        <input type="checkbox" class="checkbox-size">Honey Mustard<br>
+                        <input type="checkbox" class="checkbox-size">Sriracha<br>
+                        <ul>
+                            <li>______________</li>
+                            <li>______________</li>
+                            <li>______________</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <h3>Oil</h3>
+                <hr>
+                <br>
+                <div class="checkbox">
+                    <input type="checkbox" class="checkbox-size">Coconut Oil<br>
+                    <input type="checkbox" class="checkbox-size">Avocado Oil<br>
+                    <input type="checkbox" class="checkbox-size">Olive Oil<br>
+                    <input type="checkbox" class="checkbox-size">Canola Oil<br>
+                    <input type="checkbox" class="checkbox-size">Vegetable Oil<br>
+                    <ul>
+                        <li>______________</li>
+                        <li>______________</li>
+                        <li>______________</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h3>Spreads</h3>
+                <hr>
+                <br>
+                <div class="checkbox">
+                    <input type="checkbox" class="checkbox-size">Peanut Butter<br>
+                    <input type="checkbox" class="checkbox-size">Almond Butter<br>
+                    <input type="checkbox" class="checkbox-size">Vegemite<br>
+                    <input type="checkbox" class="checkbox-size">Hummas<br>
+                    <input type="checkbox" class="checkbox-size">Jam<br>
+                    <ul>
+                        <li>______________</li>
+                        <li>______________</li>
+                        <li>______________</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <img src="https://media.licdn.com/dms/image/C5612AQF1EdV2cOaBlg/article-cover_image-shrink_600_2000/0/1630352182366?e=2147483647&v=beta&t=GqxB9ffHdv8SVMWiDORiaSaOLM_3-MFuYS0Bk5dOS1M"
+                alt="Condiments"> <!-- Photo for Condiments section-->
+        </div>
+    </div>
+    </section> <!--End of Condiments section-->
+
+</body> <!--body end-->
+
+</html>
